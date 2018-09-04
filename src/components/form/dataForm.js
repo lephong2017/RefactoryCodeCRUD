@@ -34,7 +34,8 @@ export default class extends Component{
                                 val.keyID,
                                 val.placeholder,
                                 this.props.listObj[ind][val.keyID],
-                                val.action
+                                val.action,
+                                val.validationStateID
                             );
                         case "NUMBER":
                             return ItemForm.Number(

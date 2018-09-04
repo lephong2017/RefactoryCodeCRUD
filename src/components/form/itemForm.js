@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {FormGroup,ControlLabel,FormControl} from 'react-bootstrap';
 
 export default class extends Component{
-    static Input=(label,name,id,placeholder,value,actionOnchange)=>{
+    static Input=(label,name,id,placeholder,value,actionOnchange,validationStateID)=>{
         return(<div key={id} >
-            <FormGroup controlId="formBasicText" >
+            <FormGroup controlId="formBasicText" validationState={validationStateID} >
                 <div className="form-group">
                     <ControlLabel>{label}</ControlLabel>
                     <FormControl

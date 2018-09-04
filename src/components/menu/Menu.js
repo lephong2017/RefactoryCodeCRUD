@@ -7,7 +7,11 @@ const menus = [
         to: '/',
         exact: true
     },
-    
+    {
+        name : 'Category',
+        to : '/cate-list',
+        exact : false
+    },
     {
         name : 'Page one',
         to : '/page1',

@@ -117,7 +117,7 @@ class DEMO extends React.Component{
                 <form onSubmit={this.handelSubmit}>
                     <DataForm columns={this.state.col} listObj={listObj} />
                     <button type="submit">Send</button>
-                </form>
+                </form> 
             </div>
         );
 

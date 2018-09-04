@@ -30,8 +30,8 @@ class App extends Component {
                 );
             });
         }
-        // return <Switch>{result}</Switch>;
-        return result;
+        return <Switch>{result}</Switch>;
+        // return result;
     }
 
 }
